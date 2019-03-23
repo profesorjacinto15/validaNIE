@@ -1,6 +1,11 @@
 
 import javax.swing.JOptionPane;
 
+/**
+ * Clase ValidaNIE
+ * Clase que valida un NIE solicitado al usuario.
+ */
+
 public class validaNIE {
 
     static final String LETRAS_NIE= "TRWAGMYFPDXBNJZSQVHLCKE";
