@@ -72,8 +72,8 @@ public class validaNIE {
         String NIE = JOptionPane.showInputDialog(null, "Inserte el NIE a validar:");
         boolean valido = validarNIE(NIE);
         if (valido)
-            JOptionPane.showMessageDialog(null, "El NIE indicado es válido");
+            JOptionPane.showMessageDialog(null, "El NIE indicado es válido.");
         else
-            JOptionPane.showMessageDialog(null, "El NIE indicado no es válido");
+            JOptionPane.showMessageDialog(null, "El NIE indicado no es válido.");
     }
 }
